@@ -1,0 +1,125 @@
+{
+  "nav": {
+    "home": "Home Page",
+    "language": "Language",
+    "about": "About Us",
+    "courses": "My Courses",
+    "signup": "Sign Up"
+  },
+  "hero": {
+    "title": "🙌 Hello Friends",
+    "subtitle": "I'm Sophia and we want to start",
+    "course": "Website Design Course",
+    "together": "Together. Do you like that too 😍?",
+    "button": "Start The Course Now"
+  },
+  "Course": {
+    "title": "Search in",
+    "course": "Courses",
+    "subtitle": "Find your favorite course",
+    "categories": "Categories",
+    "searchPlaceholder": "Search Anything",
+    "orView": "Or View The Following Courses...",
+    "newCourses": "Courses",
+    "lessons": "Lessons",
+    "students": "Students",
+    "start": "Start",
+    "more": "More..."
+  },
+  "Footer": {
+    "certificate": "Membership Certificate",
+    "categories": "Categories",
+    "quick": "Quick Access",
+    "comment": "New Comment",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "rights": "© {{year}} All Rights Reserved"
+  },
+  "about": {
+    "title": "Who We Are",
+    "desc1": "Our educational platform is designed to help you develop your skills in various fields such as programming, design, and digital creativity. We provide simple and easy-to-understand lessons suitable for all levels.",
+    "desc2": "We believe that learning should be fun and interactive, so we focus on offering an enjoyable learning experience that allows you to study at your own pace and in your own way.",
+    "button": "Explore Courses Now",
+    "alt": "About us image"
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "placeholderName": "Enter your name",
+    "placeholderEmail": "Enter your email",
+    "placeholderMessage": "Write your message here..."
+  },
+  "About": {
+    "title": "About Us",
+    "whoWeAreTitle": "Who We Are",
+    "whoWeAreDesc": "We are a modern academy dedicated to providing high-quality courses and resources for learners worldwide. Our goal is to make education accessible, engaging, and effective for everyone.",
+    "missionTitle": "Our Mission",
+    "missionDesc": "To empower students and professionals with the knowledge and skills they need to succeed in their careers and personal growth.",
+    "valuesTitle": "Our Values",
+    "values": {
+      "knowledgeTitle": "Knowledge",
+      "knowledgeDesc": "We believe knowledge is power and the key to personal growth and success.",
+      "communityTitle": "Community",
+      "communityDesc": "We foster a supportive learning community where students and teachers grow together.",
+      "excellenceTitle": "Excellence",
+      "excellenceDesc": "We strive to deliver high-quality education and innovative teaching methods."
+    },
+    "whyChooseUsTitle": "Why Choose Us?",
+    "whyChooseUs": {
+      "globalTitle": "Global Access",
+      "globalDesc": "Learn from anywhere in the world with our online courses.",
+      "instructorsTitle": "Expert Instructors",
+      "instructorsDesc": "Learn from professionals with real-world experience.",
+      "resourcesTitle": "Rich Resources",
+      "resourcesDesc": "Access a wide library of courses, notes, and exercises.",
+      "practicalTitle": "Practical Learning",
+      "practicalDesc": "Hands-on projects and real case studies to build skills."
+    }
+  },
+  "AllCourse": {
+    "title": "Discover",
+    "course": "Courses",
+    "subtitle": "Find your favorite course",
+    "searchPlaceholder": "Search for anything...",
+    "allCategories": "All Courses",
+    "programming": "Programming",
+    "design": "Design",
+    "business": "Business",
+    "allLevels": "All Levels",
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced",
+    "allPrices": "All Prices",
+    "free": "Free",
+    "paid": "Paid",
+    "sort": "Sort By",
+    "topRated": "Top Rated",
+    "mostStudents": "Most Students",
+    "mostLessons": "Most Lessons",
+    "orView": "Or view the following courses...",
+    "lessons": "Lessons",
+    "students": "Students",
+    "details": "Details",
+    "noResults": "No courses found"
+  },
+  "CourseDetails": {
+    "notFound": "Course not found",
+    "lessons": "Lessons",
+    "exams": "Exams",
+    "duration": "Duration",
+    "students": "Students",
+    "instructor": "Instructor",
+    "level": "Level",
+    "price": "Price",
+    "enroll": "Enroll Now",
+    "back": "Back to Courses",
+    "details": "Course Details",
+    "learn": "What You’ll Learn",
+    "requirements": "Requirements",
+    "reviews": "Student Reviews",
+    "faq": "Frequently Asked Questions"
+  }
+}
