@@ -1,0 +1,96 @@
+.navbar {
+  border-radius: 3rem;
+  width: 60%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  backdrop-filter: blur(12px);
+  bottom: 1rem !important;
+  transition: all 0.5s ease-in-out;
+}
+
+/* ✨ عند الوصول لأسفل الصفحة */
+.navbar-up {
+  bottom: 6rem !important; /* ترفعها فوق شويه */
+  box-shadow: 0 4px 20px rgba(138, 43, 226, 0.2);
+  transform: translateY(-10px);
+}
+
+.nav-link {
+  color: #333;
+  font-size: 1.5rem;
+  transition: 0.3s;
+  border-radius: 50%;
+  padding: 0.4rem 0.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-text {
+  font-size: 0.75rem;
+  margin-top: 0.2rem;
+}
+
+.nav-link:hover {
+  color: blueviolet;
+}
+
+.active-link {
+  color: blueviolet !important;
+}
+
+/* 🌐 قائمة اللغات */
+.language-menu {
+  position: absolute;
+  bottom: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.language-menu button {
+  background: none;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  text-align: center;
+  color: #333;
+  font-size: 0.9rem;
+}
+.language-menu button:hover {
+  background-color: rgb(240, 224, 255);
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+/* ✨ تأثير دخول القائمة */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 📱 للموبايل */
+@media (max-width: 768px) {
+  .navbar {
+    width: 95%;
+    border-radius: 2rem;
+  }
+
+  .nav-link {
+    font-size: 1.3rem;
+  }
+
+  .nav-text {
+    font-size: 0.7rem;
+  }
+}

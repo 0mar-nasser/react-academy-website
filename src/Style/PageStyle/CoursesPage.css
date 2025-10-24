@@ -1,0 +1,77 @@
+.courses-page {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+/* 💡 تأثير ظهور */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 🔍 صندوق البحث والفلاتر */
+.filters-container {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.search-group {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.search-input {
+  border: none !important;
+  box-shadow: none !important;
+  padding: 12px 15px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(138, 43, 226, 0.3);
+}
+
+/* 🎛️ الفلاتر */
+.filters select,
+.filter-select {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 8px 12px;
+  min-width: 160px;
+  transition: 0.3s;
+  font-weight: 500;
+  background-color: #fafafa;
+}
+
+.filter-select:hover,
+.filter-select:focus {
+  background-color: #f3e8ff;
+  border-color: blueviolet;
+  outline: none;
+}
+
+/* 💻 للموبايل */
+@media (max-width: 768px) {
+  .filters-container {
+    padding: 1.2rem;
+  }
+
+  .filter-select {
+    width: 100%;
+    min-width: unset;
+  }
+
+  .search-input {
+    font-size: 0.95rem;
+  }
+}

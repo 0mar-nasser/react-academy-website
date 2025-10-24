@@ -1,0 +1,76 @@
+:root {
+  --main: blueviolet;
+  --text-dark: #3d3d3d;
+  --text-muted: #6b6b6b;
+}
+
+.tx-color {
+  color: var(--main);
+}
+
+.tx-gradient {
+  background: linear-gradient(90deg, #9575cd, #7e57c2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-page {
+  background: var(--main-bg);
+  border-radius: 15px;
+  padding: 2rem;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.about-logo {
+  width: 90%;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+
+.value-card,
+.why-card {
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid #e7e2f2;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(126, 87, 194, 0.08);
+}
+.value-card:hover,
+.why-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(126, 87, 194, 0.15);
+}
+
+.text-muted {
+  color: var(--text-muted) !important;
+}
+p {
+  line-height: 1.7;
+  color: var(--text-dark);
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
+.fade-up {
+  animation: fadeUp 0.8s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(25px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .about-page {
+    padding: 1.5rem;
+  }
+}

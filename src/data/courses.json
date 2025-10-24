@@ -1,0 +1,317 @@
+[
+  {
+    "id": 1,
+    "title": "React for Beginners",
+    "image": "/assets/card.jpg",
+    "category": "Programming",
+    "lessons": 24,
+    "exams": 3,
+    "duration": "12 hours",
+    "students": 1200,
+    "level": "Beginner",
+    "rating": 4,
+    "price": "Paid",
+    "instructor": "John Doe",
+    "description": "Learn React from scratch and build interactive web applications step by step.",
+    "details": "This course covers the fundamentals of React including components, state management, hooks, and API integration. By the end, you’ll have the skills to create full dynamic front-end projects.",
+    "whatYouWillLearn": [
+      "Understand the basics of React components and JSX",
+      "Manage state effectively using React Hooks",
+      "Handle events and user interactions",
+      "Connect your app to APIs",
+      "Deploy your React project online"
+    ],
+    "requirements": [
+      "Basic knowledge of HTML, CSS, and JavaScript",
+      "A computer with an internet connection",
+      "No prior React experience required"
+    ],
+    "instructorInfo": {
+      "name": "John Doe",
+      "bio": "Full-stack developer with over 10 years of experience teaching web technologies.",
+      "image": "/assets/card.jpg"
+    },
+    "reviews": [
+      { "name": "Ahmed Khaled", "rating": 5, "comment": "Amazing course! The instructor explains everything clearly." },
+      { "name": "Sara Nasser", "rating": 4, "comment": "Very good introduction to React. I built my first app!" }
+    ],
+    "faq": [
+      { "question": "Do I need prior coding experience?", "answer": "No, this course starts from the basics and explains everything clearly." },
+      { "question": "Will I get a certificate?", "answer": "Yes, a completion certificate is provided after finishing the course." }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Mastering JavaScript",
+    "image": "/assets/card.jpg",
+    "category": "Programming",
+    "lessons": 30,
+    "exams": 5,
+    "duration": "15 hours",
+    "students": 1500,
+    "level": "Intermediate",
+    "rating": 5,
+    "price": "Paid",
+    "instructor": "Jane Smith",
+    "description": "Deep dive into modern JavaScript ES6+ features, async programming, and DOM manipulation.",
+    "details": "You’ll build real-world applications, learn debugging techniques, and understand how JavaScript powers modern web frameworks like React and Vue.",
+    "whatYouWillLearn": [
+      "Master modern JavaScript ES6+ features",
+      "Understand async/await and Promises",
+      "Manipulate the DOM effectively",
+      "Debug JavaScript code efficiently",
+      "Work with APIs and JSON data"
+    ],
+    "requirements": [
+      "Basic understanding of programming concepts",
+      "Familiarity with HTML and CSS"
+    ],
+    "instructorInfo": {
+      "name": "Jane Smith",
+      "bio": "Senior JavaScript engineer passionate about teaching and simplifying coding concepts.",
+      "image": "/assets/card.jpg"
+    },
+    "reviews": [
+      { "name": "Mohamed Ali", "rating": 5, "comment": "One of the best JS courses I've ever taken!" },
+      { "name": "Layla Hassan", "rating": 4, "comment": "Great explanations and exercises." }
+    ],
+    "faq": [
+      { "question": "Is this course up-to-date?", "answer": "Yes, it includes ES2023 features and best practices." },
+      { "question": "Do I need prior JavaScript experience?", "answer": "Some basics help, but the course reviews all key concepts." }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "UI/UX Design Basics",
+    "image": "/assets/card.jpg",
+    "category": "Design",
+    "lessons": 18,
+    "exams": 2,
+    "duration": "8 hours",
+    "students": 800,
+    "level": "Beginner",
+    "rating": 4,
+    "price": "Paid",
+    "instructor": "Sarah Lee",
+    "description": "Discover the core principles of design thinking and user experience design.",
+    "details": "This course covers color theory, typography, layout principles, and usability testing. Great for aspiring designers and developers.",
+    "whatYouWillLearn": [
+      "Learn color and typography fundamentals",
+      "Understand user flow and information architecture",
+      "Create wireframes and prototypes",
+      "Conduct usability testing"
+    ],
+    "requirements": [
+      "No prior design experience required",
+      "Interest in design and creativity"
+    ],
+    "instructorInfo": {
+      "name": "Sarah Lee",
+      "bio": "UI/UX designer with 8+ years of experience creating digital products for global brands.",
+      "image": "/assets/card.jpg"
+    },
+    "reviews": [
+      { "name": "Omar Nasser", "rating": 5, "comment": "Helped me start my design career!" },
+      { "name": "Huda Ali", "rating": 4, "comment": "Clear and useful for beginners." }
+    ],
+    "faq": [
+      { "question": "Do I need design software?", "answer": "We’ll use free online tools like Figma and Canva." },
+      { "question": "Is there a final project?", "answer": "Yes, you’ll design a complete mobile app prototype." }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Fullstack Development",
+    "image": "/assets/card.jpg",
+    "category": "Programming",
+    "lessons": 40,
+    "exams": 6,
+    "duration": "20 hours",
+    "students": 2000,
+    "level": "Advanced",
+    "rating": 5,
+    "price": "Paid",
+    "instructor": "Maria Lopez",
+    "description": "Master both frontend and backend web development.",
+    "details": "You’ll learn to build complete web apps with React, Node.js, Express, and MongoDB. Understand authentication, APIs, and deployment.",
+    "whatYouWillLearn": [
+      "Build fullstack apps with React and Node.js",
+      "Use MongoDB and Express effectively",
+      "Implement authentication and authorization",
+      "Deploy web apps to cloud platforms"
+    ],
+    "requirements": [
+      "Intermediate knowledge of JavaScript",
+      "Basic understanding of React or backend development"
+    ],
+    "instructorInfo": {
+      "name": "Maria Lopez",
+      "bio": "Software engineer and instructor with a focus on modern web development stacks.",
+      "image": "/assets/card.jpg"
+    },
+    "reviews": [
+      { "name": "Karim Youssef", "rating": 5, "comment": "Comprehensive and practical!" },
+      { "name": "Nada Hassan", "rating": 4, "comment": "Challenging but rewarding." }
+    ],
+    "faq": [
+      { "question": "Do I need to know backend?", "answer": "Some basics help, but everything is explained." },
+      { "question": "Is this a project-based course?", "answer": "Yes, you’ll build multiple full projects." }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Python for Data Science",
+    "image": "/assets/card.jpg",
+    "category": "Programming",
+    "lessons": 28,
+    "exams": 3,
+    "duration": "14 hours",
+    "students": 1700,
+    "level": "Intermediate",
+    "rating": 4,
+    "price": "Paid",
+    "instructor": "David Wilson",
+    "description": "Learn how to use Python for data analysis and visualization.",
+    "details": "This course introduces NumPy, pandas, Matplotlib, and data cleaning techniques for real-world projects.",
+    "whatYouWillLearn": [
+      "Use Python libraries for data analysis",
+      "Visualize data using Matplotlib",
+      "Clean and preprocess data effectively",
+      "Work with CSV, Excel, and API data"
+    ],
+    "requirements": [
+      "Basic Python knowledge",
+      "Curiosity about data analysis"
+    ],
+    "instructorInfo": {
+      "name": "David Wilson",
+      "bio": "Data scientist with 7+ years of experience in analytics and visualization.",
+      "image": "/assets/card.jpg"
+    },
+    "reviews": [
+      { "name": "Alaa Hassan", "rating": 4, "comment": "Perfect for data beginners." },
+      { "name": "Youssef Mohamed", "rating": 5, "comment": "Explains pandas and numpy perfectly!" }
+    ],
+    "faq": [
+      { "question": "Is Python required?", "answer": "Yes, basic Python helps but the course reviews it briefly." },
+      { "question": "Do we work on projects?", "answer": "Yes, 3 mini projects are included." }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Digital Marketing",
+    "image": "/assets/card.jpg",
+    "category": "Business",
+    "lessons": 20,
+    "exams": 2,
+    "duration": "10 hours",
+    "students": 950,
+    "level": "Beginner",
+    "rating": 3,
+    "price": "Free",
+    "instructor": "Emma Brown",
+    "description": "Discover the world of online marketing, SEO, and ads.",
+    "details": "This course covers social media marketing, Google Ads, and basic SEO strategies to grow businesses online.",
+    "whatYouWillLearn": [
+      "Plan digital marketing campaigns",
+      "Use SEO and Google Analytics",
+      "Understand social media marketing",
+      "Run Facebook and Google Ads"
+    ],
+    "requirements": [
+      "No marketing background required",
+      "Basic internet skills"
+    ],
+    "instructorInfo": {
+      "name": "Emma Brown",
+      "bio": "Marketing strategist with 10+ years of experience in digital growth and branding.",
+      "image": "/assets/card.jpg"
+    },
+    "reviews": [
+      { "name": "Rana Elsayed", "rating": 4, "comment": "Loved the SEO section!" },
+      { "name": "Mostafa Ali", "rating": 3, "comment": "Good for beginners." }
+    ],
+    "faq": [
+      { "question": "Is it really free?", "answer": "Yes, this is a completely free course." },
+      { "question": "Do I need any tools?", "answer": "Just a laptop and internet connection." }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Advanced CSS Animations",
+    "image": "/assets/card.jpg",
+    "category": "Programming",
+    "lessons": 22,
+    "exams": 2,
+    "duration": "9 hours",
+    "students": 1100,
+    "level": "Intermediate",
+    "rating": 5,
+    "price": "Paid",
+    "instructor": "Lucas Green",
+    "description": "Bring your websites to life using professional CSS animation techniques and transitions.",
+    "details": "Learn how to create smooth animations, micro-interactions, and dynamic UI effects with CSS and keyframes. Perfect for front-end developers.",
+    "whatYouWillLearn": [
+      "Use CSS transitions and keyframes effectively",
+      "Build smooth hover and scroll animations",
+      "Enhance user interfaces with motion design",
+      "Optimize animations for performance"
+    ],
+    "requirements": [
+      "Good understanding of HTML and CSS",
+      "Basic knowledge of responsive design"
+    ],
+    "instructorInfo": {
+      "name": "Lucas Green",
+      "bio": "Front-end developer specialized in motion design and interactive web experiences.",
+      "image": "/assets/card.jpg"
+    },
+    "reviews": [
+      { "name": "Ola Hassan", "rating": 5, "comment": "The animations are stunning and easy to follow!" },
+      { "name": "Tamer Adel", "rating": 4, "comment": "Learned so many new CSS tricks." }
+    ],
+    "faq": [
+      { "question": "Do I need JavaScript?", "answer": "No, all animations are pure CSS-based." },
+      { "question": "Can I use this with React?", "answer": "Yes, all examples can be applied to React components." }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Intro to Cybersecurity",
+    "image": "/assets/card.jpg",
+    "category": "Technology",
+    "lessons": 25,
+    "exams": 3,
+    "duration": "11 hours",
+    "students": 1300,
+    "level": "Beginner",
+    "rating": 4,
+    "price": "Free",
+    "instructor": "Michael Carter",
+    "description": "Understand the basics of cybersecurity, online safety, and ethical hacking principles.",
+    "details": "This course teaches how cyber attacks work, how to protect personal data, and introduces network security fundamentals.",
+    "whatYouWillLearn": [
+      "Identify common cybersecurity threats",
+      "Understand firewalls and encryption",
+      "Learn ethical hacking basics",
+      "Protect personal and business data"
+    ],
+    "requirements": [
+      "Basic computer knowledge",
+      "Interest in technology and online safety"
+    ],
+    "instructorInfo": {
+      "name": "Michael Carter",
+      "bio": "Certified cybersecurity analyst with a passion for educating beginners on online safety.",
+      "image": "/assets/card.jpg"
+    },
+    "reviews": [
+      { "name": "Nour Hassan", "rating": 4, "comment": "Simple and informative for beginners." },
+      { "name": "Ali Mahmoud", "rating": 5, "comment": "Great introduction to cybersecurity concepts." }
+    ],
+    "faq": [
+      { "question": "Do I need technical experience?", "answer": "No, this course starts from zero knowledge." },
+      { "question": "Is there a certificate?", "answer": "Yes, a free certificate is provided upon completion." }
+    ]
+  }
+]

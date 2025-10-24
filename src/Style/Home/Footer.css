@@ -1,0 +1,144 @@
+/* 🌟 قسم التواصل */
+.contact-page {
+  animation: fadeIn 0.8s ease-in-out;
+  margin-bottom: 50px;
+}
+
+/* عنوان الصفحة */
+h2 {
+  color: blueviolet;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+  position: relative;
+}
+
+/* خط تحت العنوان بتدرّج جميل */
+h2::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #7b2ff7, #f107a3);
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+/* ✉️ النموذج */
+form {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px;
+}
+
+/* تأثير عند المرور */
+form:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* الحقول */
+.form-control {
+  border-radius: 10px;
+  border: 1px solid blueviolet;
+  padding: 10px;
+  transition: 0.3s ease;
+}
+
+/* تأثير عند التركيز */
+.form-control:focus {
+  border-color: #7b2ff7;
+  box-shadow: 0 0 5px rgba(123, 47, 247, 0.5);
+}
+
+/* زر الإرسال */
+.send-btn {
+  background-color: blueviolet;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: 0.3s ease;
+}
+
+/* عند التمرير */
+.send-btn:hover {
+  background-color: rgb(99, 31, 163);
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* 💫 حركة ظهور ناعمة */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 🌍 الفوتر */
+.footer-section {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 40px;
+  background-color: #fafafa;
+}
+
+/* الألوان */
+.text-primary-custom {
+  color: blueviolet;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, blueviolet, #7a4fff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* الروابط */
+footer a {
+  color: #333;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: blueviolet !important;
+}
+
+/* أيقونات السوشيال */
+.social-icons a {
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: blueviolet;
+  transform: translateY(-3px);
+}
+
+/* 📱 للموبايل */
+@media (max-width: 768px) {
+  .footer-section {
+    text-align: center;
+  }
+
+  .social-icons a {
+    font-size: 1.3rem;
+  }
+
+  form {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+}
